@@ -1,0 +1,88 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/nanogallery2@2.2.0/dist/jquery.nanogallery2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="javascripts/datepicker.min.js"></script>
+<script src="javascripts/datepicker.en.js"></script>
+<script>
+    $(document).ready(function () {
+        function getCook(cookiename) {
+            var cookiestring = RegExp("" + cookiename + "[^;]+").exec(document.cookie);
+            return decodeURIComponent(!!cookiestring ? cookiestring.toString().replace(/^[^=]+./, "") : "");
+        }
+
+        var cookieValue = getCook('screenshot');
+	var data;
+	if (cookieValue !== '') data = JSON.parse(cookieValue);
+        $('#calendar').fullCalendar({
+            header: {
+                right: 'prev, next',
+                left: 'title',
+            },
+            navLinks: true,
+	    events : data,
+            selectable: true,
+            selectHelper: true,
+            dayClick: function (date, jsEvent, view) {
+                var dateFormat = date.format();
+                jQuery('#nanogallery2').empty()
+                jQuery.get('/view-screenshot/' + dateFormat, function (data) {
+                    var list = [];
+                    data.forEach(element => {
+			let title = element.time[0] + ':' + element.time[1];
+                        var item = {
+                            title: title,
+                            src: element.path,
+                            srct: element.path
+                        }
+                        list.push(item);
+                    });
+                    jQuery("#nanogallery2").nanogallery2({
+                        thumbnailHeight: 150,
+                        thumbnailWidth: 150,
+                        items: list,
+                    });
+                    $('#image').modal('show');
+                })
+            },
+            editable: true,
+            eventLimit: true,
+            themeSystem: 'bootstrap4',
+        });
+
+        if ("<%= messageSave.length %>" > 0) {
+            Toastify({
+                text: "<%= messageSave %>",
+                duration: 10000,
+                newWindow: true,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                positionLeft: false, // `true` or `false`
+                backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+            }).showToast();
+        }
+        
+        if (<%= data.enableScreenshot %> === true)
+            $('#enableScreenshot').prop('checked', true);
+        $('#hoursScreenshot').val("<%= data.hoursScreenshot %>");
+        $('#minutesScreenshot').val("<%= data.minutesScreenshot %>");
+        if (<%= data.enableTimestamp %> === true)
+            $('#enableTimestamp').prop('checked', true);
+        if (<%= data.enableDouble %> === true)
+            $('#enableDouble').prop('checked', true);
+        if (<%= data.enableDelete %> === true)
+            $('#enableDelete').prop('checked', true);
+        $('#deleteScreenshot').val("<%= data.deleteScreenshot %>");
+        $('#qualityScreenshot').val("<%= data.qualityScreenshot %>");
+	$('#dateDelete').val("<%= data.dateDelete %>");
+        $('.navbar-menu a[href*="/screenshot"]').addClass('active-item');
+    })
+
+</script>
+
+<script src="javascripts/owl.carousel.min.js"></script>
+<script src="javascripts/dropzone.min.js"></script>
+<script src="javascripts/script.js"></script>

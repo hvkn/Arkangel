@@ -1,0 +1,96 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="javascripts/jquery.timeline.js"></script>
+<script>
+    $(document).ready(function () {
+        if (<%= data.enable %> === true)
+    $('#enable').prop('checked', true);
+    if (<%= data.bookmark %> === true)
+        $('#bookmark').prop('checked', true);
+    if (<%= data.password %> === true)
+        $('#password').prop('checked', true);
+
+    if ("<%= messageSave.length %>" > 0) {
+        Toastify({
+            text: "<%= messageSave %>",
+            duration: 10000,
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            positionLeft: false, // `true` or `false`
+            backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+        }).showToast();
+    }
+
+    var content = [];
+    var tempList = <%- JSON.stringify(list) %>
+        tempList.forEach(element => {
+            var time = element.time.split('-');
+            var newTime = new Date(time[0], time[1], time[2], 0, 0, 0, 0, );
+            var item = {
+                time: newTime,
+                color: element.color,
+                css: element.css,
+                content: element.content
+            }
+            content.push(item);
+        })
+    $("#timeline").timeline({
+        data: content
+    });
+
+    var history = <%- JSON.stringify(result) %>;
+
+    Highcharts.chart('history', {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: "Top 10 visited website today"
+        },
+        xAxis: {
+            type: 'category',
+            labels: {
+                rotation: -45,
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Count (n)'
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            pointFormat: '<b>{point.y:.1f}</b>'
+        },
+        series: [{
+            name: 'History',
+            data: history,
+            dataLabels: {
+                enabled: true,
+                rotation: -90,
+                color: '#FFFFFF',
+                align: 'right',
+                format: '{point.y:.1f}', 
+                y: 10, 
+            }
+        }]
+    });
+
+
+    $('.navbar-menu a[href*="/web-usage"]').addClass('active-item');
+    })
+</script>
+<script src="javascripts/owl.carousel.min.js"></script>
+<script src="javascripts/dropzone.min.js"></script>
+<script src="javascripts/script.js"></script>

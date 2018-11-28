@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include css/userCss %>
+
+    <body>
+        <div class="content">
+            <% include common/commonNavbar %>
+                <form method="post">
+                    <div class="container">
+                        <nav class="mt-5">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-settings-tab" data-toggle="tab" href="#nav-settings" role="tab" aria-controls="nav-settings"
+                                    aria-selected="false">Settings</a>
+                            </div>
+                        </nav>
+                        <div class="col-md-12">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab">
+                                    <div class="offset-md-3">
+                                        <div class="col-md-11">
+                                            <table class="mt-5">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <i class="fas fa-users icon-settings"></i>
+                                                        </td>
+                                                        <td class="pt-single-text">
+                                                            Monitor all users
+                                                        </td>
+                                                        <td class="pr-2 ml-5" style="float: right">
+                                                            <label class="switch">
+                                                                <input type="checkbox" name="enableAll" id="enableAll">
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <i class="fas fa-user icon-settings"></i>
+                                                        </td>
+                                                        <td class="pt-single-text">
+                                                            Monitor the current user
+                                                        </td>
+                                                        <td class="pr-2 ml-5" style="float: right">
+                                                            <label class="switch">
+                                                                <input type="checkbox" name="enableCurrent" id="enableCurrent">
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <i class="fas fa-user icon-settings"></i>
+                                                        </td>
+                                                        <td class="pt-single-text">
+                                                            Monitor the following user
+                                                        </td>
+                                                        <td class="pr-2 ml-5" style="float: right">
+                                                            <label class="switch">
+                                                                <input type="checkbox" name="enableFollowing" id="enableFollowing">
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <ul class="list-group mt-4">
+                                                                <% list.forEach(element => { %>
+                                                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                                        <%= element%>
+                                                                            <span class="badge badge-primary badge-pill trash">
+                                                                                <a href="/delete-user/<%= element %>">
+                                                                                    <i class="fa fa-trash"></i>
+                                                                                </a>
+                                                                            </span>
+                                                                    </li>
+                                                                    <% }) %>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <div class="offset-md-1 mt-5">
+                                                                <button type="button" class="btn btn-infor btn-lg" data-toggle="modal" data-target="#addUser">
+                                                                    Add
+                                                                </button>
+                                                                <button type="submit" formaction="/user" class="btn btn-success btn-lg">OK</button>
+                                                                <button type="button" class="btn btn-danger btn-lg">
+                                                                    <a class="cancel" href="/user">Cancel</a>
+                                                                </button>
+                                                                <button type="submit" formaction="/delete-all-user" class="btn btn-primary btn-lg">Delete all</a>
+                                                                </button>
+                                                                <div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel">Add user</h5>
+                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                </button>
+                                                                            </div>
+                                                                            <div class="modal-body">
+                                                                                <div class="form-group">
+                                                                                    <input type="text" class="form-control" name="keywordUser" aria-describedby="helpId" placeholder="User">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                                <button type="submit" formaction="/add-user" class="btn btn-primary">Add</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        <% include common/commonFooter %>
+            <% include script/userScript%>
+    </body>
+
+</html>

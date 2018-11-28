@@ -1,0 +1,60 @@
+﻿<Window x:Class="Arkangel.Signup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Login" Height="500" Width="350" 
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None" 
+        FontFamily="Segoe UI Emoji" 
+        Icon =".\Sources\logo_LSC_icon.ico">
+    <Grid>
+        <Rectangle Height="280" VerticalAlignment="Top" MouseDown="Rectangle_MouseDown">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2281D1"/>
+                    <GradientStop Color="#FF34268A" Offset="1"/>
+                    <GradientStop Color="#FF33288B" Offset="0.546"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Width="280" Height="240" VerticalAlignment="Bottom" Margin="0,80" RadiusY="10" RadiusX="10" Fill="White">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="#FFBBBBBB"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="35,80" Height="240">
+            <Button Height="30" Width="30" Margin="235,45,15,165" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}">
+                <Grid>
+                    <materialDesign:PackIcon x:Name="true_mail" Visibility="Hidden" Height="30" Width="30" Kind="Check" Foreground="Green"></materialDesign:PackIcon>
+                    <materialDesign:PackIcon x:Name="false_mail" Visibility="Hidden" Height="30" Width="30" Kind="Close" Foreground="Green"></materialDesign:PackIcon>
+                </Grid>
+            </Button>
+            <Button Height="30" Width="30" Margin="235,169,15,41" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}">
+                <Grid>
+                    <materialDesign:PackIcon x:Name="true_password" Visibility="Hidden" Height="30" Width="30" Kind="Check" Foreground="Green"></materialDesign:PackIcon>
+                    <materialDesign:PackIcon x:Name="false_password" Visibility="Hidden" Height="30" Width="30" Kind="Close" Foreground="Green"></materialDesign:PackIcon>
+                </Grid>
+            </Button>
+            <Label Content="SIGN UP" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Foreground="Gray" FontSize="18"/>
+            <StackPanel VerticalAlignment="Center" Margin="15">
+                <TextBox x:Name="tb_username" Margin="0,10" materialDesign:HintAssist.Hint="EMAIL" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="18" TextChanged="tb_username_TextChanged"/>
+                <PasswordBox x:Name="tb_password" Margin="0,10" materialDesign:HintAssist.Hint="PASSWORD" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18"/>
+                <PasswordBox x:Name="tb_repassword" Margin="0,10" materialDesign:HintAssist.Hint="RETYPE PASSWORD" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18" PasswordChanged="tb_repassword_PasswordChanged"/>
+
+            </StackPanel>
+        </Grid>
+        <Button x:Name="btn_Signup" Width="150" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="100,0,100,27" Content="SIGN UP" Click="btn_Signup_Click"/>
+        <Button x:Name="btn_Close" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{x:Null}" Padding="0" BorderBrush="{x:Null}" Click="btn_Close_Click">
+            <materialDesign:PackIcon Kind="Power" Height="50" Width="50"></materialDesign:PackIcon>
+        </Button>
+        <Image Source=".\Sources\34054291_1039096782920609_216488157267361792_n.png" Height="100" Width="70" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="140,77,140,0" IsManipulationEnabled="True"></Image>
+        <ProgressBar x:Name="processbar" Margin="0,435,0,61" Visibility="Hidden"></ProgressBar>
+
+    </Grid>
+</Window>

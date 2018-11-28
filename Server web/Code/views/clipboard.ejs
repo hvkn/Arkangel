@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include css/clipboardCss %>
+<body>
+    <div class="content">
+            <% include common/commonNavbar %>
+            <form action="/clipboard" method="post">
+                <div class="container">
+                    <nav class="mt-5">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-image-tab" data-toggle="tab" href="#nav-image" role="tab" aria-controls="nav-image"
+                            aria-selected="false">Image</a>
+                            <a class="nav-item nav-link" id="nav-log-tab" data-toggle="tab" href="#nav-log" role="tab" aria-controls="nav-log"
+                                aria-selected="true">Log</a>
+                        </div>
+                    </nav>
+                    <div class="col-md-12">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-image" role="tabpanel" aria-labelledby="nav-image-tab">
+                                        <div style="display: flex" class="offset-md-7">
+                                            <div class="col-md-9">
+                                                <div class="form-group mt-3">
+                                                    <input  type="text" 
+                                                            data-range="true"
+                                                            class="form-control datepicker-here" 
+                                                            data-language="en" 
+                                                            data-multiple-dates-separator=" - " 
+                                                            name="clipboard"
+                                                            aria-describedby="helpId" 
+                                                            placeholder="Range"
+                                                            toggleSelected: "false">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1" style="margin-top: 0.6em">
+                                                <button type="submit" formaction="/check-day-clipboard" class="btn btn-primary">Search</button>
+                                            </div>
+                                        </div>
+                                    <% include common/commonCalendar %>
+                            </div>
+                            <div class="tab-pane fade" id="nav-log" role="tabpanel" aria-labelledby="nav-log-tab">
+                                <div id="timeline" class="mt-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </div>
+    <% include common/commonFooter %>
+    <% include script/clipboardScript %>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include css/remoteCss %>
+
+    <body>
+        <div class="content">
+            <% include common/commonNavbar %>
+                <form method="post">
+                    <div class="container">
+                        <nav class="mt-5">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-settings-tab" data-toggle="tab" href="#nav-settings" role="tab" aria-controls="nav-settings"
+                                    aria-selected="false">Remote</a>
+                            </div>
+                        </nav>
+                        <div class="col-md-12">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab">
+                                    <div class="offset-md-4">
+                                        <div class="col-md-6">
+                                            <form method="POST">
+                                                <select class="form-control mt-5" name="remote">
+                                                    <option>Shutdown</option>
+                                                    <option>Restart</option>
+                                                    <option>Log off</option>
+                                                    <option>Sleep</option>
+                                                </select>
+                                                <div class="offset-md-3 mt-5">
+                                                    <button type="submit" formaction="/remote" class="btn btn-success btn-lg">OK</button>
+                                                    <button type="button" class="btn btn-danger btn-lg">
+                                                        <a class="cancel" href="/remote">Cancel</a>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        <% include common/commonFooter %>
+            <% include script/remoteScript%>
+    </body>
+
+</html>

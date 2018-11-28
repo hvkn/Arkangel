@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include css/webcamCss %>
+
+    <body>
+        <div class="content">
+            <% include common/commonNavbar %>
+                <form action="/webcam" method="post">
+                    <div class="container">
+                        <nav class="mt-5">
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-log-tab" data-toggle="tab" href="#nav-log" role="tab" aria-controls="nav-log"
+                                    aria-selected="true">Log</a>
+                                <a class="nav-item nav-link" id="nav-settings-tab" data-toggle="tab" href="#nav-settings" role="tab" aria-controls="nav-settings"
+                                    aria-selected="false">Settings</a>
+                            </div>
+                        </nav>
+                        <div class="col-md-12">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-log" role="tabpanel" aria-labelledby="nav-log-tab">
+                                        <div style="display: flex" class="offset-md-7">
+                                            <div class="col-md-9">
+                                                <div class="form-group mt-3">
+                                                    <input  type="text" 
+                                                            data-range="true"
+                                                            class="form-control datepicker-here" 
+                                                            data-language="en" 
+                                                            data-multiple-dates-separator=" - " 
+                                                            name="webcam"
+                                                            aria-describedby="helpId" 
+                                                            placeholder="Range"
+                                                            toggleSelected: "false">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-1" style="margin-top: 0.6em">
+                                                <button type="submit" formaction="/check-day-webcam" class="btn btn-primary">Search</button>
+                                            </div>
+                                        </div>
+                                    <% include common/commonCalendar %>
+                                </div>
+                                <div class="tab-pane fade" id="nav-settings" role="tabpanel" aria-labelledby="nav-settings-tab">
+                                    <div class="offset-md-4">
+                                        <div class="col-md-9">
+                                            <table class="mt-5">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <i class="fas fa-video icon-settings"></i>
+                                                        </td>
+                                                        <td class="pt-single-text">
+                                                            <a data-toggle="collapse" href="#txtEnable">
+                                                                Auto take a picture every
+                                                            </a>
+                                                        </td>
+                                                        <td class="pr-2 ml-5" style="float: right">
+                                                            <label class="switch">
+                                                                <input type="checkbox" name="enableWebcam" id="enableWebcam">
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <div class="collapse" id="txtEnable">
+                                                                <div class="multi-text">
+                                                                    <div class="pr-2">
+                                                                        hours
+                                                                    </div>
+                                                                    <div class="form-group pr-2">
+                                                                        <input type="text" class="form-control" id="hoursWebcam" name="hoursWebcam" aria-describedby="helpId" size="5">
+                                                                    </div>
+                                                                    <div class="pr-2">
+                                                                        minutes
+                                                                    </div>
+                                                                    <div class="form-group pr-2">
+                                                                        <input type="text" class="form-control" name="minutesWebcam" id="minutesWebcam" aria-describedby="helpId" size="5">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <i class="fa fa-trash icon-settings"></i>
+                                                        </td>
+                                                        <td class="pt-single-text">
+                                                            <a data-toggle="collapse" href="#txtDelete">
+                                                                Auto delete pictures after
+                                                            </a>
+                                                        </td>
+                                                        <td class="pr-2 ml-5" style="float: right">
+                                                            <label class="switch">
+                                                                <input type="checkbox" name="enableDelete" id="enableDelete">
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <div class="collapse" id="txtDelete">
+                                                                <div class="multi-text">
+                                                                    <div class="pr-2">
+                                                                        days
+                                                                    </div>
+                                                                    <div class="form-group pr-2">
+                                                                        <input type="text" class="form-control" name="daysWebcam" id="daysWebcam" aria-describedby="helpId" size="5">
+                                                                    </div>
+                                                                    <div class="pr-2">
+                                                                        date
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group pr-2">
+                                                                            <input type="text" class="form-control datepicker-here" data-timepicker="true" data-language='en' name="dateDelete" id="dateDelete"
+                                                                                aria-describedby="helpId">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <i class="fa fa-trash icon-settings"></i>
+                                                        </td>
+                                                        <td class="pt-single-text">
+                                                            Auto delete after uploading
+                                                        </td>
+                                                        <td class="pr-2 ml-5" style="float: right">
+                                                            <label class="switch">
+                                                                <input type="checkbox" name="enableDeleteUpload" id="enableDeleteUpload">
+                                                                <span class="slider"></span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="3">
+                                                            <div class="offset-md-3 mt-4">
+                                                                <button type="submit" class="btn btn-success btn-lg">OK</button>
+                                                                <button type="button" class="btn btn-danger btn-lg">
+                                                                    <a class="cancel" href="/webcam">Cancel</a>
+                                                                </button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        <% include common/commonFooter %>
+            <% include script/webcamScript %>
+    </body>
+
+</html>

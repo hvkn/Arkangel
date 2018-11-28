@@ -1,0 +1,46 @@
+
+10_14_43
+/signupUpload
+10_15_34
+
+10_15_36
+
+10_15_38
+
+10_16_05
+
+11_44_17
+ using (SQLiteConnection connect = new SQLiteConnection(@"Data Source=..\..\database.db"))
+            {
+                connect.Open();
+                using (SQLiteCommand fmd = connect.CreateCommand())
+                {
+                    string _loginlog = Functions.Login(tb_username.Text, tb_password.Password);
+                    if (_loginlog!="Error")
+                    {
+                        MainWindow bs = new MainWindow();
+
+                        bs._username.Text = tb_username.Text;
+                        //Update token xuong database
+                        SQLiteCommand getid = new SQLiteCommand(@"UPDATE current_user SET id=1,token='"+ _loginlog.Split('\"')[1] + "'", connect);
+                       
+                        getid.ExecuteNonQuery();
+                        SQLiteCommand upusername = new SQLiteCommand(@"UPDATE Users SET id=1, username= '"+tb_username.Text+"', password='"+Functions.Base64Encode(tb_password.Password)+"' ", connect);
+                        upusername.ExecuteNonQuery();
+                        Functions.syncDown();
+                        Functions.CheckUser();
+                        bs.Show();
+                        Close();
+                    }
+                    else 
+                    {
+                        SQLiteCommand getid = new SQLiteCommand(@"UPDATE current_user SET id=NULL,token='" + _loginlog 
+                            + "'", connect);
+                        getid.ExecuteNonQuery();
+                        MessageBox.Show("Invalid Username or Password");
+
+                    }
+                    connect.Close();
+                }
+            }
+12_29_26

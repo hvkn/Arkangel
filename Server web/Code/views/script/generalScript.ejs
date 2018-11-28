@@ -1,0 +1,79 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="javascripts/jquery.timeline.js"></script>
+<script src="javascripts/owl.carousel.min.js"></script>
+<script src="javascripts/dropzone.min.js"></script>
+<script>
+    $(document).ready(function() {
+        if ("<%= messageLogin.length %>" > 0) {
+            Toastify({
+                text: "<%= messageLogin %>",
+                duration: 10000,
+                newWindow: true,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                positionLeft: false, // `true` or `false`
+                backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+            }).showToast();
+        }
+        if ("<%= messageSignup.length %>" > 0) {
+            Toastify({
+                text: "<%= messageSignup %>",
+                duration: 10000,
+                newWindow: true,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                positionLeft: false, // `true` or `false`
+                backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+            }).showToast();
+        }
+
+        if ("<%= messageSave.length %>" > 0) {
+            Toastify({
+                text: "<%= messageSave %>",
+                duration: 10000,
+                newWindow: true,
+                close: true,
+                gravity: "top", // `top` or `bottom`
+                positionLeft: false, // `true` or `false`
+                backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+            }).showToast();
+        }
+
+        var content = [];
+        var tempList = <%- JSON.stringify(list) %>
+            // console.log(tempList);
+            tempList.forEach(element => {
+                var time = element.time.split('-');
+                var newTime = new Date(time[0], time[1], time[2], 0, 0, 0, 0, );
+                var item = {
+                    time: newTime,
+                    color: element.color,
+                    css: element.css,
+                    content: element.content
+                }
+                content.push(item);
+            })
+        $("#timeline").timeline({
+            data: content
+        });
+
+        if (<%= data.disableTaskManager %> === true)
+            $('#disableTaskManager').prop('checked', true);
+        if (<%= data.disableRegistry %> === true)
+            $('#disableRegistry').prop('checked', true);
+        if (<%= data.enableEncrypt %> === true)
+            $('#enableEncrypt').prop('checked', true);
+        if (<%= data.enableStartup %> === true)
+            $('#enableStartup').prop('checked', true);
+        if (<%= data.enableHotkey %> === true)
+            $('#enableHotkey').prop('checked', true);
+        $('#hotkeyGeneral').val("<%= data.hotkeyGeneral %>")
+        $('.navbar-menu a[href*="/general"]').addClass('active-item');
+    })
+
+</script>
+<script src="javascripts/script.js"></script>

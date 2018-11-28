@@ -1,0 +1,258 @@
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.exe.config
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.exe
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.pdb
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\DotNetZip.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignColors.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.Design.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\DotNetZip.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.pdb
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignColors.pdb
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\LoginForm.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert_Add.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_File.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_Pic.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Dashboard.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Email.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_General.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_Server.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_General.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_Server.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\General.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\LoginForm.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\MainWindow.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Screenshot.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Target.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByApp.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByName.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\User.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Webcam.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Website_Usage.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\_Clipboard.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\App.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_MarkupCompile.cache
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_MarkupCompile.lref
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\App.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert_Add.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_File.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_Pic.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Dashboard.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Email.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_General.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_Server.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_General.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_Server.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\General.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\MainWindow.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Screenshot.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Target.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByApp.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByName.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\User.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Webcam.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Website_Usage.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\_Clipboard.baml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.g.resources
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.Properties.Resources.resources
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.GenerateResource.Cache
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.CoreCompileInputs.cache
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.exe
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.pdb
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.exe.config
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.exe
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.pdb
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignColors.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.Design.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.Fonts.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Microsoft.Azure.Mobile.Client.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Newtonsoft.Json.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.dll
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.pdb
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignColors.pdb
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Microsoft.Azure.Mobile.Client.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Newtonsoft.Json.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.xml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.dll.config
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csprojResolveAssemblyReference.cache
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\LoginForm.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert_Add.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_File.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_Pic.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Dashboard.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_General.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_Server.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_General.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_Server.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\General.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\LoginForm.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\MainWindow.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Screenshot.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Setting.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByApp.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByName.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\User.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Webcam.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Website_Usage.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\_Clipboard.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\App.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_Content.g.cs
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_MarkupCompile.cache
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_MarkupCompile.lref
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\App.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert_Add.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_File.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_Pic.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Dashboard.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_General.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_Server.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_General.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_Server.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\General.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\MainWindow.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Screenshot.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Setting.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByApp.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByName.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\User.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Webcam.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Website_Usage.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\_Clipboard.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.g.resources
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.Properties.Resources.resources
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.GenerateResource.cache
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.CoreCompileInputs.cache
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.CopyComplete
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.exe
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.pdb
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Setting.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_Content.g.cs
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Microsoft.Azure.Mobile.Client.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Microsoft.Azure.Mobile.Client.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Setting.baml
+D:\Do an chuyen nganh\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\DotNetZip.xml
+C:\Users\TyTran\Documents\doanchuyennganh\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csprojResolveAssemblyReference.cache
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.exe.config
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.exe
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Arkangel.pdb
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\DotNetZip.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignColors.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.Design.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MetroFramework.Fonts.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Microsoft.Azure.Mobile.Client.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Newtonsoft.Json.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.dll
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\DotNetZip.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.pdb
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Dragablz.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignColors.pdb
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Microsoft.Azure.Mobile.Client.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\Newtonsoft.Json.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.xml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\bin\Debug\System.Data.SQLite.dll.config
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csprojResolveAssemblyReference.cache
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\LoginForm.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert_Add.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_File.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_Pic.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Dashboard.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_General.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_Server.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_General.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_Server.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\General.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\LoginForm.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\MainWindow.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Screenshot.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Setting.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByApp.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByName.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\User.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Webcam.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Website_Usage.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\_Clipboard.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\App.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_Content.g.cs
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_MarkupCompile.cache
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel_MarkupCompile.lref
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\App.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Alert_Add.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_File.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\CB_Pic.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Dashboard.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_General.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Email_Server.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_General.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\FTP_Server.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\General.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\MainWindow.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Screenshot.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Setting.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByApp.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Target_ByName.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\User.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Webcam.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Website_Usage.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\_Clipboard.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.g.resources
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.Properties.Resources.resources
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.GenerateResource.cache
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.CoreCompileInputs.cache
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.csproj.CopyComplete
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.exe
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Arkangel.pdb
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Signup.baml
+D:\Đồ án chuyên ngành\Arkangel\_Arkangel\Arkangel\Arkangel\obj\Debug\Signup.g.cs
